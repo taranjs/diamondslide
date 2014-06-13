@@ -1,0 +1,42 @@
+div.diamond {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+
+#container {
+
+}
+
+#top {
+    left: 50px;
+}
+
+#top,
+#left,
+#right,
+#bottom {
+    background-color: #0088cc;
+    cursor: pointer;
+}
+
+#center-clone {
+    background-color: #62c462;
+}
+
+#center {
+    background-color: #f89406;
+    left: 50px;
+    top: -50px;
+}
+
+#right {
+    top: -100px;
+    left: 100px;
+}
+#bottom {
+    top: -100px;
+    left: 50px;
+}
